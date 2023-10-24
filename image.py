@@ -82,6 +82,7 @@ def convert_to_pdf(image, file_name):
     pdf.output(pdf_temp_file_name)
     return pdf_temp_file_name
 
+
 # Function to compress an image
 def compress_image(image, quality):
     img_buffer = BytesIO()
