@@ -188,7 +188,7 @@ if my_uploads:
                         pdf_temp_file_name = convert_to_pdf(image, "converted_image.pdf")
 
                         # Provide a download link for the PDF
-                        st.markdown(get_binary_file_downloader_html(pdf_temp_file_name, "Download PDF"),
+                        st.markdown(get_binary_file_downloader_html(pdf_temp_file_name, "PDF"),
                                     unsafe_allow_html=True)
 
 
